@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Yomi Fabiyi</title>
+  <rect width="64" height="64" rx="14" fill="#20231F"/>
+  <g transform="translate(8 12) scale(0.24)">
+    
+<path d="M14 10 H47 L78 49 L111 10 H145 L94 73 V150 H65 V73 Z" fill="#F7F7F2"/>
+<path d="M112 10 H177 L157 31 H130 Z" fill="#71865B"/>
+<path d="M104 57 H157 L139 77 H104 V102 L84 124 V77 Z" fill="#F7F7F2"/>
+
+  </g>
+</svg>

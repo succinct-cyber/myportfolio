@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 160" role="img" aria-labelledby="title desc">
+  <title id="title">Yomi Fabiyi</title>
+  <desc id="desc">Yomi Fabiyi wordmark with a geometric YF monogram.</desc>
+  <g transform="translate(0 0) scale(0.82)">
+    
+<path d="M14 10 H47 L78 49 L111 10 H145 L94 73 V150 H65 V73 Z" fill="#20231F"/>
+<path d="M112 10 H177 L157 31 H130 Z" fill="#71865B"/>
+<path d="M104 57 H157 L139 77 H104 V102 L84 124 V77 Z" fill="#20231F"/>
+
+  </g>
+  <path d="M178 35 V125" stroke="#71865B" stroke-width="2.5"/>
+  <text x="207" y="101" fill="#20231F" font-family="Inter, Manrope, Arial, sans-serif" font-size="48" font-weight="650" letter-spacing="-1.7">Yomi Fabiyi</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img" aria-labelledby="title desc">
+  <title id="title">Yomi Fabiyi monogram on ivory</title>
+  <desc id="desc">Geometric YF monogram in charcoal and olive green on a warm ivory background.</desc>
+  <rect width="200" height="160" rx="18" fill="#F7F7F2"/>
+  
+<path d="M14 10 H47 L78 49 L111 10 H145 L94 73 V150 H65 V73 Z" fill="#20231F"/>
+<path d="M112 10 H177 L157 31 H130 Z" fill="#71865B"/>
+<path d="M104 57 H157 L139 77 H104 V102 L84 124 V77 Z" fill="#20231F"/>
+
+</svg>

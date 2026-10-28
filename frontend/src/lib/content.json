@@ -1,0 +1,261 @@
+{
+  "profile": {
+    "name": "Yomi Fabiyi",
+    "role": "Software Engineer",
+    "availability": "Available for software development opportunities",
+    "headline": "Software that works beyond the demo.",
+    "intro": "I'm Yomi, a full-stack developer focused on Python, Django, APIs, and practical web applications. I build products with attention to the details behind the screen.",
+    "email": "yomi@example.com",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "location": "Remote / Asynchronous Distributed Teams",
+    "timezone": "GMT+1",
+    "response_time": "Direct inquiries responded to within 24–48 hours.",
+    "specialization": "Backend Architecture & Full-Stack Web",
+    "core_stack": "Python · Django · FastAPI · Postgres · React · JavaScript · Go",
+    "approach": "Pragmatic, Test-Guided, Schema-First",
+    "philosophy": "From simple schemas to the global space.",
+    "bio": [
+      "I believe great software is defined by how well it performs under real-world conditions, not just how it looks in a screenshot. My focus is on writing maintainable backend services, architecting relational databases that scale cleanly, and crafting responsive web interfaces that don't get in the user's way.",
+      "Whether it's designing REST endpoints with Django REST Framework, optimizing SQL queries, or integrating asynchronous workflows, I enjoy taking projects from blank repository to reliable, deployed production environments.",
+      "Over the years, I've developed a rigorous workflow centered around clear database schemas, comprehensive API design, and deterministic automated testing. I view frontend implementation not as an afterthought, but as the natural manifestation of a well-architected backend contract."
+    ],
+    "quote": "Software architecture is not about anticipating every unknown future requirement. It is about making decisions today that leave tomorrow's choices open.",
+    "resume_url": null
+  },
+  "projects": [
+    {
+      "slug": "ojaevents",
+      "title": "OjaEvents — Event Management & Ticketing Platform",
+      "category": "Production Web App",
+      "year": 2024,
+      "cover_path": "/projects/ojaevents.png",
+      "summary": "A full-stack event discovery and ticketing platform built with Django, DRF, React and PostgreSQL, with Paystack payments, promo code validation, saved events and a real-time booking flow.",
+      "description": [
+        "A full-stack event discovery and ticketing system with Paystack payment integration, promo code validation, saved events, and a real-time booking flow.",
+        "Fixed an N+1 query problem on event list endpoints through queryset annotation, eliminating page load lag."
+      ],
+      "highlights": [
+        "Paystack payment integration",
+        "Promo code validation",
+        "Saved events and a real-time booking flow",
+        "N+1 query fix via queryset annotation"
+      ],
+      "stack": ["Django", "DRF", "React", "PostgreSQL", "Paystack"],
+      "links": [
+        {"label": "View Project Details", "to": "/work/ojaevents", "icon": "arrow"},
+        {"label": "Live Demo", "url": "https://oja-events-1.onrender.com", "icon": "external"}
+      ],
+      "metrics": [],
+      "snippet": "",
+      "snippet_title": "",
+      "snippet_meta": "",
+      "featured": true, "order": 0
+    },
+    {
+      "slug": "equinox-ledger",
+      "title": "Equinox Ledger — Fintech Data & Reconciliation",
+      "category": "Fintech & Data Pipeline",
+      "year": 2023,
+      "cover_path": "/projects/equinox-ledger.png",
+      "summary": "A production-deployed fintech web application built with Django and PostgreSQL, featuring custom authentication, encrypted transaction flows and an admin dashboard for managing financial records.",
+      "description": [
+        "A production-deployed fintech web application with custom authentication, encrypted transaction flows, and an admin dashboard for financial record management.",
+        "Deployed with PostgreSQL and full environment variable management for secure credential handling."
+      ],
+      "highlights": [
+        "Custom authentication",
+        "Encrypted transaction and payment flows",
+        "Admin dashboard for financial record management",
+        "Secure credential handling through environment variables"
+      ],
+      "stack": ["Python", "Django", "PostgreSQL", "Custom Auth", "Payment Flows"],
+      "links": [
+        {"label": "Case Study", "to": "/work/equinox-ledger", "icon": "arrow"},
+        {"label": "Live Demo", "url": "https://equinox-ledger.onrender.com", "icon": "external"}
+      ],
+      "metrics": [],
+      "snippet": "",
+      "snippet_title": "",
+      "snippet_meta": "",
+      "featured": true, "order": 1
+    },
+    {
+      "slug": "corpsly",
+      "title": "Corpsly — Civic Registration & Dispatch System",
+      "category": "Civic-Tech · In Development",
+      "year": 2024,
+      "cover_path": "/projects/corpsly.png",
+      "summary": "A civic-tech platform for Nigeria's NYSC service year, targeting 200,000+ corps members yearly. Built with Django, DRF, React and PostgreSQL to tackle PPA posting, redeployment tracking, allowance visibility, clearance automation and discharge certificate management.",
+      "description": [
+        "A civic-tech platform targeting 200,000+ Nigerian corps members yearly, solving PPA posting chaos, redeployment tracking, allowance visibility, clearance automation, and discharge certificate management.",
+        "The full backend API is built with DRF across three phased roadmap modules, with React dashboards for both corps members and NYSC officials."
+      ],
+      "highlights": [
+        "PPA posting and redeployment tracking",
+        "Allowance visibility and clearance automation",
+        "Discharge certificate management",
+        "DRF API across three phased roadmap modules",
+        "React dashboards for corps members and NYSC officials"
+      ],
+      "stack": ["Django", "Django REST Framework", "React", "PostgreSQL"],
+      "links": [
+        {"label": "Documentation", "url": "https://example.com/corpsly/docs", "icon": "doc"},
+        {"label": "Architecture Overview", "to": "/work/corpsly", "icon": "layers"}
+      ],
+      "metrics": [
+        {"value": 200, "decimals": 0, "prefix": "", "suffix": "k+", "label": "Corps Members / Yr (Target)"},
+        {"value": 3, "decimals": 0, "prefix": "", "suffix": "", "label": "Roadmap Modules"},
+        {"value": 2, "decimals": 0, "prefix": "", "suffix": "", "label": "Role Dashboards"}
+      ],
+      "snippet": "", "snippet_title": "", "snippet_meta": "", "featured": true, "order": 2
+    },
+    {
+      "slug": "heritage-estates",
+      "title": "Heritage Estates — Real Estate Listings Platform",
+      "category": "property tech",
+      "year": 2025,
+      "cover_path": "/projects/heritage-estates.png",
+      "summary": "Discover premium spaces designed for comfort, security, and elegance in Nigeria's most sought-after locations.",
+      "description": [
+        "Full-stack real estate site for a single Nigerian real-estate firm (not a multi-agent marketplace). Django REST Framework backend + React (Vite) + Tailwind CSS frontend.",
+        "Features include property listings, search and filter capabilities, user authentication, and a responsive design for desktop users."
+      ],
+      "highlights": [
+        "Short bullet one",
+        "Short bullet two",
+        "Short bullet three"
+      ],
+      "stack": ["Django", "DRF", "React", "Tailwind CSS", "PostgreSQL"],
+      "links": [
+        {"label": "View Project Details", "to": "/work/heritage-estates", "icon": "arrow"},
+        {"label": "Live Demo", "url": "https://heritage-estates-frontend.onrender.com/", "icon": "external"},
+        {"label": "View Source", "url": "https://github.com/succinct-cyber/Heritage-homes-", "icon": "code"}
+      ],
+      "metrics": [],
+      "snippet": "",
+      "snippet_title": "",
+      "snippet_meta": "",
+      "featured": false,
+      "order": 3
+    },
+    {
+      "slug": "goodnews-merch",
+      "title": "Goodnews Merch — A faith-based e-commerce platform",
+      "category": "e-commerce",
+      "year": 2025,
+      "cover_path": "/projects/Goodnews.png",
+      "summary": "A faith-inspired e-commerce platform built with Django for selling apparel and Christian merchandise.",
+      "description": [
+        "GoodNews Merch is a full-stack online store with product listings, product variations, cart logic, checkout flow, order handling, and admin management."
+      ],
+      "highlights": [
+        "Short bullet one",
+        "Short bullet two",
+        "Short bullet three"
+      ],
+      "stack": ["Django", "DRF", "React", "Next.js", "Tailwind CSS", "PostgreSQL"],
+      "links": [
+        {"label": "View Project Details", "to": "/work/goodnews-merch", "icon": "arrow"},
+        {"label": "Live Demo", "url": "https://goodnewsmerch.store", "icon": "external"},
+        {"label": "View Source", "url": "https://github.com/succinct-cyber/GoodNewsMerch", "icon": "code"}
+      ],
+      "metrics": [],
+      "snippet": "",
+      "snippet_title": "",
+      "snippet_meta": "",
+      "featured": true,
+      "order": 4
+    },
+    {
+      "slug": "yourfragrancestore",
+      "title": "Your Fragrance Store — A scent-based e-commerce platform",
+      "category": "e-commerce",
+      "year": 2025,
+      "cover_path": "/projects/ymf.png",
+      "summary": "A fragrance-focused e-commerce platform built with Django, React, and Next.js for selling perfumes and aromatherapy products.",
+      "description": [
+        "Your Fragrance Store is a full-stack online store with product listings, product variations, cart logic, checkout flow, order handling, and admin management."
+      ],
+      "highlights": [
+        "Short bullet one",
+        "Short bullet two",
+        "Short bullet three"
+      ],
+      "stack": ["Django", "DRF", "React", "Next.js", "Tailwind CSS", "PostgreSQL"],
+      "links": [
+        {"label": "View Project Details", "to": "/work/yourfragrancestore", "icon": "arrow"},
+        {"label": "Live Demo", "url": "https://example.com", "icon": "external"},
+        {"label": "View Source", "url": "https://github.com/succinct-cyber/YourFragranceStore", "icon": "code"}
+      ],
+      "metrics": [],
+      "snippet": "",
+      "snippet_title": "",
+      "snippet_meta": "",
+      "featured": false,
+      "order": 5
+  }
+  ],
+  "skills": [
+    {"name": "Backend", "icon": "server", "blurb": "Robust server-side logic, API endpoints, and business domain engines.",
+     "items": [
+       {"name": "Python", "level": "Primary"}, {"name": "Django 5", "level": "Expert"},
+       {"name": "Django REST Framework", "level": "APIs"}, {"name": "FastAPI", "level": "Async"},
+       {"name": "Go", "level": "Services"}]},
+    {"name": "Frontend & UI", "icon": "window", "blurb": "Responsive, accessible client surfaces designed with minimal friction.",
+     "items": [
+       {"name": "JavaScript (ES6+)", "level": "Modern"}, {"name": "React", "level": "SPA / UI"},
+       {"name": "Tailwind CSS", "level": "Design Systems"}, {"name": "HTML Semantic Web", "level": "A11y"},
+       {"name": "State Management", "level": "Client Sync"}]},
+    {"name": "Databases & Infra", "icon": "database", "blurb": "Relational integrity, migrations, and predictable cloud hosting.",
+     "items": [
+       {"name": "PostgreSQL", "level": "Primary RDBMS"}, {"name": "SQLite", "level": "Embedded"},
+       {"name": "MongoDB", "level": "NoSQL"}, {"name": "AWS", "level": "Cloud"},
+       {"name": "Docker", "level": "Containers"}, {"name": "Render / Railway", "level": "PaaS"}]},
+    {"name": "Practices", "icon": "compass", "blurb": "Discipline and principles that keep production codebases clean.",
+     "items": [
+       {"name": "REST API Design", "level": "Spec-First"}, {"name": "Relational Data Modeling", "level": "3NF"},
+       {"name": "JWT & Auth", "level": "Security"}, {"name": "Unit Testing (Pytest)", "level": "Verified"},
+       {"name": "CI/CD & Versioning", "level": "GitHub Actions"}]}
+  ],
+  "experience": [
+  {
+    "role": "Software Engineer (Contract)",
+    "company": "Engrewlabs",
+    "period": "Mar 2026 — Present",
+    "summary": "Backend-heavy engineering role delivering automation services, APIs, and full-stack products for Engrewlabs clients.",
+    "bullets": [
+      "Built an Uber-like ride-hailing application: backend architecture, real-time location logic, and trip state management",
+      "Delivered client-facing products across fintech, e-commerce, blog platforms, and personal portfolio sites",
+      "Maintained code quality across client codebases with Git-based version control and structured code reviews"
+    ]
+  },
+  {
+    "role": "Software Engineer (Full-Time)",
+    "company": "Radius Technologies Services Limited",
+    "period": "Mar 2024 — Mar 2026",
+    "summary": "Designed, built, and maintained full-stack web applications across fintech, e-commerce, and enterprise automation using Python, Django, React, Go, and JavaScript.",
+    "bullets": [
+      "Architected and delivered automation services in Python and Go, reducing manual operational overhead",
+      "Owned the development lifecycle (database design, API development, frontend, cloud deployment) across multiple concurrent client engagements",
+      "Integrated third-party APIs and payment gateways, deploying to Railway and Render with PostgreSQL backends",
+      "Translated business requirements into technical specifications and shipped products with cross-functional teams"
+    ]
+  },
+  {
+    "role": "Freelance Software Engineer",
+    "company": "Independent",
+    "period": "2022 — 2024",
+    "summary": "Scoped, built, and delivered products for clients across fintech, e-commerce, edtech, and instant messaging.",
+    "bullets": [
+      "Managed the full project lifecycle from requirements and architecture planning to deployment and post-launch support"
+    ]
+  }
+],
+"education": [
+  {"title": "B.Eng. Electrical & Electronics Engineering", "institution": "Federal University of Technology, Akure (FUTA)", "period": "2018 — 2024"},
+  {"title": "Full-Stack Development: Django, React, HTML, CSS", "institution": "Udemy", "period": "2024"},
+  {"title": "Certifications", "institution": "freeCodeCamp · Coursera", "period": "2023"},
+  {"title": "Backend Development with Python & JavaScript", "institution": "Udemy", "period": "2022"}
+]
+}
