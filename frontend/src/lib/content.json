@@ -85,7 +85,7 @@
       "title": "Corpsly — Civic Registration & Dispatch System",
       "category": "Civic-Tech · In Development",
       "year": 2024,
-      "cover_path": "/projects/corpsly.png",
+      "cover_path": "/projects/corsply.png",
       "summary": "A civic-tech platform for Nigeria's NYSC service year, targeting 200,000+ corps members yearly. Built with Django, DRF, React and PostgreSQL to tackle PPA posting, redeployment tracking, allowance visibility, clearance automation and discharge certificate management.",
       "description": [
         "A civic-tech platform targeting 200,000+ Nigerian corps members yearly, solving PPA posting chaos, redeployment tracking, allowance visibility, clearance automation, and discharge certificate management.",
